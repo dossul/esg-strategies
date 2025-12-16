@@ -1,0 +1,81 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bookBgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bookSpine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#581c87;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pageGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8fafc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bookBgGradient)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="50" r="20" fill="#ffffff" opacity="0.1"/>
+  <circle cx="350" cy="250" r="25" fill="#ffffff" opacity="0.1"/>
+  <rect x="320" y="30" width="60" height="60" fill="#ffffff" opacity="0.05" transform="rotate(30 350 60)"/>
+  
+  <!-- Book cover -->
+  <g transform="translate(100, 50)">
+    <!-- Book spine shadow -->
+    <rect x="-5" y="5" width="205" height="200" fill="#000000" opacity="0.2" rx="8"/>
+    
+    <!-- Book cover -->
+    <rect x="0" y="0" width="200" height="200" fill="url(#pageGradient)" rx="8"/>
+    
+    <!-- Book spine -->
+    <rect x="0" y="0" width="15" height="200" fill="url(#bookSpine)" rx="8 0 0 8"/>
+    
+    <!-- Cover design -->
+    <rect x="20" y="20" width="160" height="160" fill="#7c3aed" opacity="0.1" rx="4"/>
+    
+    <!-- Title area -->
+    <rect x="30" y="30" width="140" height="80" fill="#ffffff" rx="4"/>
+    
+    <!-- ESG letters -->
+    <text x="100" y="60" text-anchor="middle" fill="#7c3aed" font-family="Arial, sans-serif" font-size="24" font-weight="bold">ESG</text>
+    <text x="100" y="80" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12">GUIDE</text>
+    <text x="100" y="95" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="10">pour Dirigeants</text>
+    
+    <!-- Subtitle area -->
+    <rect x="30" y="120" width="140" height="40" fill="#f8fafc" rx="2"/>
+    <text x="100" y="135" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="8">Stratégies ESG</text>
+    <text x="100" y="145" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="8">& Développement</text>
+    <text x="100" y="155" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="8">Durable</text>
+    
+    <!-- Author area -->
+    <text x="100" y="180" text-anchor="middle" fill="#7c3aed" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Dr. Marie Dubois</text>
+    
+    <!-- Decorative elements on cover -->
+    <circle cx="45" cy="45" r="3" fill="#7c3aed" opacity="0.3"/>
+    <circle cx="155" cy="45" r="3" fill="#7c3aed" opacity="0.3"/>
+    <circle cx="45" cy="165" r="3" fill="#7c3aed" opacity="0.3"/>
+    <circle cx="155" cy="165" r="3" fill="#7c3aed" opacity="0.3"/>
+    
+    <!-- Pages effect -->
+    <rect x="195" y="5" width="3" height="190" fill="#e5e7eb"/>
+    <rect x="192" y="8" width="3" height="184" fill="#f3f4f6"/>
+  </g>
+  
+  <!-- Price tag -->
+  <g transform="translate(320, 180)">
+    <rect x="0" y="0" width="60" height="25" fill="#fbbf24" rx="12"/>
+    <text x="30" y="16" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">29,99€</text>
+  </g>
+  
+  <!-- Quality badges -->
+  <g transform="translate(50, 220)">
+    <circle cx="15" cy="15" r="12" fill="#10b981" opacity="0.9"/>
+    <text x="15" y="19" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="8" font-weight="bold">★</text>
+    <text x="35" y="12" fill="#ffffff" font-family="Arial, sans-serif" font-size="8">Bestseller</text>
+    <text x="35" y="22" fill="#ffffff" font-family="Arial, sans-serif" font-size="8">ESG 2024</text>
+  </g>
+</svg>

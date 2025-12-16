@@ -1,0 +1,65 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="overlayGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgGradient)"/>
+  
+  <!-- Overlay pattern -->
+  <rect x="0" y="0" width="400" height="300" fill="url(#overlayGradient)" opacity="0.3"/>
+  
+  <!-- Geometric shapes for modern design -->
+  <circle cx="350" cy="50" r="30" fill="#ffffff" opacity="0.1"/>
+  <circle cx="50" cy="250" r="40" fill="#ffffff" opacity="0.1"/>
+  <rect x="300" y="200" width="80" height="80" fill="#ffffff" opacity="0.05" transform="rotate(45 340 240)"/>
+  
+  <!-- Main content area -->
+  <rect x="30" y="40" width="340" height="220" fill="#ffffff" rx="10" opacity="0.95"/>
+  
+  <!-- Header section -->
+  <rect x="30" y="40" width="340" height="60" fill="#1e3a8a" rx="10 10 0 0"/>
+  <text x="200" y="65" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">EXECUTIVE LEADERSHIP</text>
+  <text x="200" y="85" text-anchor="middle" fill="#fbbf24" font-family="Arial, sans-serif" font-size="12" font-weight="bold">WORKSHOP 2024</text>
+  
+  <!-- Main title -->
+  <text x="200" y="130" text-anchor="middle" fill="#1e3a8a" font-family="Arial, sans-serif" font-size="16" font-weight="bold">THE NEXT CEO</text>
+  <text x="200" y="150" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12">Modélisation de la croissance</text>
+  <text x="200" y="165" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12">commerciale à l'ère de l'IA</text>
+  
+  <!-- Location and date -->
+  <g transform="translate(50, 190)">
+    <!-- Location icon -->
+    <circle cx="8" cy="8" r="6" fill="#ef4444" opacity="0.2"/>
+    <circle cx="8" cy="8" r="3" fill="#ef4444"/>
+    <text x="20" y="12" fill="#374151" font-family="Arial, sans-serif" font-size="10">Nairobi, KENYA</text>
+  </g>
+  
+  <g transform="translate(50, 210)">
+    <!-- Calendar icon -->
+    <rect x="2" y="4" width="12" height="10" fill="#10b981" opacity="0.2" rx="1"/>
+    <rect x="4" y="6" width="8" height="6" fill="#10b981" rx="1"/>
+    <text x="20" y="12" fill="#374151" font-family="Arial, sans-serif" font-size="10">22-26 Nov 2024</text>
+  </g>
+  
+  <!-- Professional icons -->
+  <g transform="translate(280, 180)">
+    <!-- Business person silhouette -->
+    <circle cx="15" cy="10" r="8" fill="#6366f1" opacity="0.3"/>
+    <rect x="7" y="18" width="16" height="20" fill="#6366f1" opacity="0.3" rx="2"/>
+    <!-- Briefcase -->
+    <rect x="35" y="25" width="12" height="8" fill="#f59e0b" opacity="0.7" rx="1"/>
+    <rect x="37" y="23" width="8" height="2" fill="#f59e0b" opacity="0.7"/>
+  </g>
+  
+  <!-- Bottom accent -->
+  <rect x="30" y="250" width="340" height="10" fill="#fbbf24" rx="0 0 10 10"/>
+</svg>

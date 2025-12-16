@@ -1,0 +1,121 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="govGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E53935;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D32F2F;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="professionalBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFEBEE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFCDD2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#professionalBg)"/>
+  
+  <!-- Corporate building -->
+  <rect x="400" y="150" width="400" height="450" fill="#E53935" opacity="0.8"/>
+  <rect x="420" y="170" width="360" height="430" fill="#D32F2F" opacity="0.6"/>
+  
+  <!-- Building windows grid -->
+  <g fill="#FFFFFF" opacity="0.9">
+    <!-- Floor 1 -->
+    <rect x="440" y="190" width="20" height="25"/>
+    <rect x="470" y="190" width="20" height="25"/>
+    <rect x="500" y="190" width="20" height="25"/>
+    <rect x="530" y="190" width="20" height="25"/>
+    <rect x="560" y="190" width="20" height="25"/>
+    <rect x="590" y="190" width="20" height="25"/>
+    <rect x="620" y="190" width="20" height="25"/>
+    <rect x="650" y="190" width="20" height="25"/>
+    <rect x="680" y="190" width="20" height="25"/>
+    <rect x="710" y="190" width="20" height="25"/>
+    <rect x="740" y="190" width="20" height="25"/>
+    
+    <!-- Floor 2 -->
+    <rect x="440" y="230" width="20" height="25"/>
+    <rect x="470" y="230" width="20" height="25"/>
+    <rect x="500" y="230" width="20" height="25"/>
+    <rect x="530" y="230" width="20" height="25"/>
+    <rect x="560" y="230" width="20" height="25"/>
+    <rect x="590" y="230" width="20" height="25"/>
+    <rect x="620" y="230" width="20" height="25"/>
+    <rect x="650" y="230" width="20" height="25"/>
+    <rect x="680" y="230" width="20" height="25"/>
+    <rect x="710" y="230" width="20" height="25"/>
+    <rect x="740" y="230" width="20" height="25"/>
+    
+    <!-- Floor 3 -->
+    <rect x="440" y="270" width="20" height="25"/>
+    <rect x="470" y="270" width="20" height="25"/>
+    <rect x="500" y="270" width="20" height="25"/>
+    <rect x="530" y="270" width="20" height="25"/>
+    <rect x="560" y="270" width="20" height="25"/>
+    <rect x="590" y="270" width="20" height="25"/>
+    <rect x="620" y="270" width="20" height="25"/>
+    <rect x="650" y="270" width="20" height="25"/>
+    <rect x="680" y="270" width="20" height="25"/>
+    <rect x="710" y="270" width="20" height="25"/>
+    <rect x="740" y="270" width="20" height="25"/>
+  </g>
+  
+  <!-- Balance scale -->
+  <g transform="translate(100,200)">
+    <rect x="49" y="0" width="2" height="150" fill="#424242"/>
+    <rect x="30" y="148" width="40" height="4" fill="#424242"/>
+    <rect x="10" y="40" width="30" height="3" fill="#424242"/>
+    <rect x="60" y="40" width="30" height="3" fill="#424242"/>
+    <line x1="25" y1="43" x2="25" y2="60" stroke="#424242" stroke-width="2"/>
+    <line x1="75" y1="43" x2="75" y2="60" stroke="#424242" stroke-width="2"/>
+    <rect x="15" y="60" width="20" height="8" fill="#E53935" opacity="0.8"/>
+    <rect x="65" y="60" width="20" height="8" fill="#E53935" opacity="0.8"/>
+  </g>
+  
+  <!-- Gavel -->
+  <g transform="translate(900,300)">
+    <rect x="0" y="20" width="40" height="15" fill="#8D6E63"/>
+    <rect x="35" y="10" width="8" height="35" fill="#6D4C41"/>
+    <rect x="20" y="40" width="60" height="8" fill="#424242"/>
+  </g>
+  
+  <!-- Shield with checkmark -->
+  <g transform="translate(850,150)">
+    <path d="M50,10 L80,25 L80,60 C80,80 50,100 50,100 C50,100 20,80 20,60 L20,25 Z" fill="#E53935" opacity="0.8"/>
+    <path d="M35,50 L45,60 L65,35" stroke="#FFFFFF" stroke-width="4" fill="none"/>
+  </g>
+  
+  <!-- Document/Contract -->
+  <g transform="translate(200,350)">
+    <rect x="0" y="0" width="80" height="100" fill="#FFFFFF" stroke="#424242" stroke-width="2"/>
+    <line x1="10" y1="15" x2="70" y2="15" stroke="#424242" stroke-width="1"/>
+    <line x1="10" y1="25" x2="70" y2="25" stroke="#424242" stroke-width="1"/>
+    <line x1="10" y1="35" x2="50" y2="35" stroke="#424242" stroke-width="1"/>
+    <line x1="10" y1="45" x2="70" y2="45" stroke="#424242" stroke-width="1"/>
+    <line x1="10" y1="55" x2="60" y2="55" stroke="#424242" stroke-width="1"/>
+    <circle cx="60" cy="75" r="8" fill="#E53935"/>
+    <text x="60" y="80" font-family="Arial" font-size="10" text-anchor="middle" fill="#FFFFFF">✓</text>
+  </g>
+  
+  <!-- Graph/Chart -->
+  <g transform="translate(300,250)">
+    <rect x="0" y="80" width="80" height="2" fill="#424242"/>
+    <rect x="0" y="0" width="2" height="82" fill="#424242"/>
+    <rect x="10" y="60" width="8" height="20" fill="#E53935" opacity="0.8"/>
+    <rect x="25" y="40" width="8" height="40" fill="#E53935" opacity="0.8"/>
+    <rect x="40" y="30" width="8" height="50" fill="#E53935" opacity="0.8"/>
+    <rect x="55" y="20" width="8" height="60" fill="#E53935" opacity="0.8"/>
+    <polyline points="14,60 29,40 44,30 59,20" stroke="#D32F2F" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Overlay text area -->
+  <rect x="50" y="450" width="400" height="120" fill="url(#govGradient)" opacity="0.9" rx="10"/>
+  <text x="70" y="480" font-family="Roboto, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">
+    Gouvernance d'Entreprise
+  </text>
+  <text x="70" y="510" font-family="Roboto, sans-serif" font-size="16" fill="#FFFFFF">
+    Transparence et éthique des affaires
+  </text>
+  <text x="70" y="535" font-family="Roboto, sans-serif" font-size="14" fill="#FFFFFF">
+    Conformité • Audit • Gestion des risques
+  </text>
+</svg>

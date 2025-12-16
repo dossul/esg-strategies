@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="certGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1976d2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#42a5f5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bookGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5f5f5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#certGrad)"/>
+  
+  <!-- Certificate -->
+  <rect x="80" y="60" width="240" height="180" rx="8" fill="url(#bookGrad)" stroke="#1976d2" stroke-width="2"/>
+  
+  <!-- Certificate content -->
+  <rect x="100" y="80" width="200" height="4" fill="#1976d2" opacity="0.3"/>
+  <rect x="100" y="95" width="160" height="3" fill="#1976d2" opacity="0.2"/>
+  <rect x="100" y="108" width="180" height="3" fill="#1976d2" opacity="0.2"/>
+  
+  <!-- ESG Badge -->
+  <circle cx="200" cy="160" r="25" fill="#1976d2"/>
+  <text x="200" y="167" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">ESG</text>
+  
+  <!-- Ribbon -->
+  <polygon points="320,60 340,60 330,80 320,70" fill="#ff9800"/>
+  <polygon points="320,70 330,80 320,90 310,80" fill="#f57c00"/>
+  
+  <!-- Stars -->
+  <polygon points="120,200 125,210 135,210 127,217 130,227 120,220 110,227 113,217 105,210 115,210" fill="#ffd700"/>
+  <polygon points="160,200 165,210 175,210 167,217 170,227 160,220 150,227 153,217 145,210 155,210" fill="#ffd700"/>
+  <polygon points="240,200 245,210 255,210 247,217 250,227 240,220 230,227 233,217 225,210 235,210" fill="#ffd700"/>
+  <polygon points="280,200 285,210 295,210 287,217 290,227 280,220 270,227 273,217 265,210 275,210" fill="#ffd700"/>
+  
+  <!-- Graduation cap -->
+  <ellipse cx="200" cy="40" rx="25" ry="8" fill="#1976d2"/>
+  <rect x="175" y="32" width="50" height="8" fill="#1976d2"/>
+  <polygon points="225,32 235,28 235,36" fill="#1976d2"/>
+  <circle cx="235" cy="32" r="2" fill="#ff9800"/>
+</svg>

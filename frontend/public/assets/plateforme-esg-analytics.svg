@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="platformGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7b1fa2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ba68c8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f3e5f5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#platformGrad)"/>
+  
+  <!-- Computer screen -->
+  <rect x="80" y="60" width="240" height="150" rx="8" fill="#333"/>
+  <rect x="90" y="70" width="220" height="130" fill="url(#screenGrad)"/>
+  
+  <!-- Computer base -->
+  <rect x="180" y="210" width="40" height="20" fill="#333"/>
+  <ellipse cx="200" cy="240" rx="60" ry="8" fill="#333"/>
+  
+  <!-- Dashboard elements -->
+  <!-- Header bar -->
+  <rect x="100" y="80" width="200" height="15" fill="#7b1fa2" opacity="0.8"/>
+  <circle cx="110" cy="87" r="3" fill="white"/>
+  <circle cx="120" cy="87" r="3" fill="white"/>
+  <circle cx="130" cy="87" r="3" fill="white"/>
+  
+  <!-- Charts -->
+  <rect x="110" y="110" width="80" height="60" fill="none" stroke="#7b1fa2" stroke-width="1"/>
+  <circle cx="150" cy="140" r="20" fill="none" stroke="#7b1fa2" stroke-width="3"/>
+  <path d="M 150 120 A 20 20 0 0 1 170 140" fill="#7b1fa2" opacity="0.7"/>
+  <path d="M 150 120 A 20 20 0 0 0 135 155" fill="#ba68c8" opacity="0.7"/>
+  
+  <!-- Bar chart -->
+  <rect x="210" y="110" width="80" height="60" fill="none" stroke="#7b1fa2" stroke-width="1"/>
+  <rect x="220" y="150" width="8" height="20" fill="#7b1fa2"/>
+  <rect x="235" y="140" width="8" height="30" fill="#7b1fa2"/>
+  <rect x="250" y="130" width="8" height="40" fill="#7b1fa2"/>
+  <rect x="265" y="145" width="8" height="25" fill="#7b1fa2"/>
+  
+  <!-- Metrics cards -->
+  <rect x="110" y="180" width="35" height="15" fill="#e1bee7" rx="2"/>
+  <rect x="155" y="180" width="35" height="15" fill="#e1bee7" rx="2"/>
+  <rect x="200" y="180" width="35" height="15" fill="#e1bee7" rx="2"/>
+  <rect x="245" y="180" width="35" height="15" fill="#e1bee7" rx="2"/>
+  
+  <!-- Analytics icon -->
+  <circle cx="350" cy="80" r="25" fill="white" opacity="0.9"/>
+  <path d="M 335 85 L 345 75 L 355 80 L 365 70" stroke="#7b1fa2" stroke-width="3" fill="none"/>
+  <circle cx="335" cy="85" r="3" fill="#7b1fa2"/>
+  <circle cx="345" cy="75" r="3" fill="#7b1fa2"/>
+  <circle cx="355" cy="80" r="3" fill="#7b1fa2"/>
+  <circle cx="365" cy="70" r="3" fill="#7b1fa2"/>
+  
+  <!-- Cloud icon -->
+  <ellipse cx="50" cy="120" rx="15" ry="10" fill="white" opacity="0.8"/>
+  <ellipse cx="40" cy="125" rx="10" ry="8" fill="white" opacity="0.8"/>
+  <ellipse cx="60" cy="125" rx="12" ry="8" fill="white" opacity="0.8"/>
+  
+  <!-- Data points -->
+  <circle cx="30" cy="200" r="3" fill="white" opacity="0.6"/>
+  <circle cx="45" cy="180" r="2" fill="white" opacity="0.6"/>
+  <circle cx="60" cy="220" r="2" fill="white" opacity="0.6"/>
+  <circle cx="350" cy="180" r="3" fill="white" opacity="0.6"/>
+  <circle cx="370" cy="160" r="2" fill="white" opacity="0.6"/>
+  <circle cx="330" cy="200" r="2" fill="white" opacity="0.6"/>
+</svg>
