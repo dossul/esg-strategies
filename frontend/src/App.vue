@@ -80,7 +80,7 @@
                     <div class="mega-menu-item">
                       <v-icon size="48" color="purple" class="mb-3">mdi-handshake</v-icon>
                       <h3 class="text-h6 mb-2">Engagements</h3>
-                      <p class="text-body-2 mb-3">et durabilité</p>
+                      <p class="text-body-2 mb-3">Politique RSE et durabilité</p>
                       <v-btn to="/engagement-politique-rse-dd" variant="outlined" size="small">
                         En savoir plus
                       </v-btn>
@@ -426,7 +426,7 @@
             <v-list-item-title>Pourquoi nous choisir ?</v-list-item-title>
           </v-list-item>
           <v-list-item to="/engagement-politique-rse-dd" @click="drawer = false">
-            <v-list-item-title>Engagements et durabilité</v-list-item-title>
+            <v-list-item-title>Engagements - Politique RSE et durabilité</v-list-item-title>
           </v-list-item>
         </v-list-group>
 
