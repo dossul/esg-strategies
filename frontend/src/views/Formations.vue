@@ -26,49 +26,6 @@
       </v-container>
     </section>
 
-    <!-- Public Cible Section -->
-    <section class="py-16">
-      <v-container>
-        <v-row justify="center">
-          <v-col cols="12" md="10">
-            <div class="text-center mb-12">
-              <h2 class="text-h3 font-weight-bold mb-6 text-primary">
-                Public Cible
-              </h2>
-            </div>
-            
-            <v-card elevation="2" class="pa-8 mb-8">
-              <p class="text-h6 text-center mb-6">
-                Nos formations s'adressent principalement aux cadres des secteurs privés et publics ainsi que la société civile.
-              </p>
-              
-              <v-row>
-                <v-col
-                  v-for="target in publicCible"
-                  :key="target.title"
-                  cols="12"
-                  md="6"
-                  lg="3"
-                >
-                  <div class="text-center">
-                    <v-icon
-                      :icon="target.icon"
-                      size="48"
-                      color="primary"
-                      class="mb-3"
-                    />
-                    <h4 class="text-h6 font-weight-bold text-primary">
-                      {{ target.title }}
-                    </h4>
-                  </div>
-                </v-col>
-              </v-row>
-            </v-card>
-          </v-col>
-        </v-row>
-      </v-container>
-    </section>
-
     <!-- Catégories de Formations Section -->
     <section class="py-16 bg-grey-lighten-5">
       <v-container>
@@ -111,6 +68,49 @@
                   <v-icon end>mdi-arrow-down</v-icon>
                 </v-btn>
               </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </section>
+
+    <!-- Public Cible Section -->
+    <section class="py-16">
+      <v-container>
+        <v-row justify="center">
+          <v-col cols="12" md="10">
+            <div class="text-center mb-12">
+              <h2 class="text-h3 font-weight-bold mb-6 text-primary">
+                Public Cible
+              </h2>
+            </div>
+            
+            <v-card elevation="2" class="pa-8 mb-8">
+              <p class="text-h6 text-center mb-6">
+                Nos formations s'adressent principalement aux cadres des secteurs privés et publics ainsi que la société civile.
+              </p>
+              
+              <v-row>
+                <v-col
+                  v-for="target in publicCible"
+                  :key="target.title"
+                  cols="12"
+                  md="6"
+                  lg="3"
+                >
+                  <div class="text-center">
+                    <v-icon
+                      :icon="target.icon"
+                      size="48"
+                      color="primary"
+                      class="mb-3"
+                    />
+                    <h4 class="text-h6 font-weight-bold text-primary">
+                      {{ target.title }}
+                    </h4>
+                  </div>
+                </v-col>
+              </v-row>
             </v-card>
           </v-col>
         </v-row>
