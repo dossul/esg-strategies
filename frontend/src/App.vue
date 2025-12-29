@@ -96,9 +96,9 @@
             </template>
             <v-card class="mega-menu-card" min-width="1000">
               <v-card-text class="pa-6">
-                <!-- Première ligne - 4 services -->
+                <!-- Première ligne - 3 services -->
                 <v-row class="mb-4">
-                  <v-col cols="3" class="text-center">
+                  <v-col cols="4" class="text-center">
                     <div class="mega-menu-item">
                       <v-icon size="48" color="primary" class="mb-3">mdi-strategy</v-icon>
                       <h3 class="text-h6 mb-2">Stratégies ESG/RSE</h3>
@@ -108,7 +108,7 @@
                       </v-btn>
                     </div>
                   </v-col>
-                  <v-col cols="3" class="text-center">
+                  <v-col cols="4" class="text-center">
                     <div class="mega-menu-item">
                       <v-icon size="48" color="green" class="mb-3">mdi-earth</v-icon>
                       <h3 class="text-h6 mb-2">Évaluations Environnementales</h3>
@@ -118,7 +118,7 @@
                       </v-btn>
                     </div>
                   </v-col>
-                  <v-col cols="3" class="text-center">
+                  <v-col cols="4" class="text-center">
                     <div class="mega-menu-item">
                       <v-icon size="48" color="teal" class="mb-3">mdi-recycle</v-icon>
                       <h3 class="text-h6 mb-2">Économie circulaire</h3>
@@ -128,7 +128,10 @@
                       </v-btn>
                     </div>
                   </v-col>
-                  <v-col cols="3" class="text-center">
+                </v-row>
+                <!-- Deuxième ligne - 3 services -->
+                <v-row>
+                  <v-col cols="4" class="text-center">
                     <div class="mega-menu-item">
                       <v-icon size="48" color="blue" class="mb-3">mdi-cloud-outline</v-icon>
                       <h3 class="text-h6 mb-2">Neutralité carbone</h3>
@@ -138,10 +141,7 @@
                       </v-btn>
                     </div>
                   </v-col>
-                </v-row>
-                <!-- Deuxième ligne - 2 services -->
-                <v-row>
-                  <v-col cols="6" class="text-center">
+                  <v-col cols="4" class="text-center">
                     <div class="mega-menu-item">
                       <v-icon size="48" color="light-green" class="mb-3">mdi-leaf</v-icon>
                       <h3 class="text-h6 mb-2">Biodiversité et écosystèmes</h3>
@@ -151,7 +151,7 @@
                       </v-btn>
                     </div>
                   </v-col>
-                  <v-col cols="6" class="text-center">
+                  <v-col cols="4" class="text-center">
                     <div class="mega-menu-item">
                       <v-icon size="48" color="indigo" class="mb-3">mdi-file-document-outline</v-icon>
                       <h3 class="text-h6 mb-2">Reporting durabilité ESG</h3>
