@@ -16,32 +16,158 @@
       </v-container>
     </section>
 
+    <!-- Présentation Section -->
+    <section class="py-16">
+      <v-container>
+        <v-row justify="center">
+          <v-col cols="12" md="10">
+            <div class="text-center mb-12">
+              <h2 class="text-h3 font-weight-bold mb-6 text-primary">Présentation</h2>
+            </div>
+            
+            <v-card elevation="2" class="pa-8 mb-8">
+              <p class="text-body-1 mb-6">
+                L'agence de conseil en stratégie ESG est un cabinet d'expertise spécialisé dans l'analyse des politiques et des performances de durabilité / ESG des organisations. L'agence intervient aide les dirigeants, les managers et leurs équipes à optimiser leurs processus de production et opérer leur transition écologique.
+              </p>
+              
+              <p class="text-body-1 mb-6">
+                ESG-stratégies offre ses services aux organisations des principaux secteurs de développement. Ces services particulièrement s'adressent aux entreprises, aux ONG et associations, aux collectivités territoriales et aux administrations publiques en quête d'amélioration de leurs pratiques organisationnelles et d'impacts sociétaux.
+              </p>
+              
+              <p class="text-body-1 mb-6">
+                ESG-stratégies accompagne ses clients pour les évaluations environnementales (EIES), la mesure d'impact social (MIS) y compris la mise en place et l'audit des systèmes de management de qualité, de santé sécurité au travail, de l'environnement et des démarches RSE. Les prestations s'étendent aux formations, certifications, labellisation et notations ESG.
+              </p>
+              
+              <p class="text-body-1 font-weight-bold">
+                L'agence aide les dirigeants, les managers et leurs équipes à optimiser leurs processus de production et opérer leur transition écologique.
+              </p>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </section>
+
+    <!-- Vision Section -->
+    <section class="py-16 bg-grey-lighten-5">
+      <v-container>
+        <v-row justify="center">
+          <v-col cols="12" md="10">
+            <div class="text-center mb-12">
+              <h2 class="text-h3 font-weight-bold mb-6 text-primary">Vision</h2>
+            </div>
+            
+            <v-card elevation="2" class="pa-8 mb-8">
+              <p class="text-h6 text-center text-grey-darken-1">
+                [Vision à définir - Contenu à fournir par le client]
+              </p>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </section>
+
     <!-- Mission Section -->
     <section class="py-16">
       <v-container>
         <v-row justify="center">
           <v-col cols="12" md="10">
             <div class="text-center mb-12">
-              <h2 class="text-h3 font-weight-bold mb-6 text-primary">Notre Mission</h2>
+              <h2 class="text-h3 font-weight-bold mb-6 text-primary">Mission</h2>
             </div>
             
             <v-card elevation="2" class="pa-8 mb-8">
-              <p class="text-h6 text-center mb-6">
-                ESG Stratégies, cabinet d'expertise, se concentre sur l'analyse des données pour améliorer 
-                la gouvernance et promouvoir le développement durable des organisations.
+              <p class="text-h6 text-center text-primary">
+                Doter les organisations Africaines de stratégies durabilité à haute valeur ajoutée et cohérentes avec leurs enjeux stratégiques prioritaires afin d'accroitre leurs performances et les bénéfices sociétaux au profit des collectivités territoriales
               </p>
-              
-              <p class="text-body-1 mb-6">
-                Nous accompagnons les entreprises, ONG, collectivités territoriales et administrations publiques 
-                dans leur transition vers des pratiques plus durables et responsables. Notre approche se base sur 
-                une analyse rigoureuse des données ESG (Environnementales, Sociales et de Gouvernance) pour 
-                identifier les opportunités d'amélioration et développer des stratégies adaptées.
-              </p>
-              
-              <p class="text-body-1">
-                Notre expertise couvre l'ensemble des enjeux du développement durable : de la gestion des 
-                ressources naturelles à l'amélioration de la gouvernance, en passant par l'impact social 
-                et l'engagement communautaire.
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </section>
+
+    <!-- Raisons de nous choisir Section -->
+    <section class="py-16 bg-grey-lighten-5">
+      <v-container>
+        <v-row>
+          <v-col cols="12" class="text-center mb-12">
+            <h2 class="text-h3 font-weight-bold mb-4 text-primary">Raisons de nous choisir</h2>
+            <p class="text-h6 text-grey-darken-1">
+              Trois piliers qui fondent notre excellence
+            </p>
+          </v-col>
+        </v-row>
+        
+        <v-row>
+          <v-col
+            v-for="raison in raisonsChoisir"
+            :key="raison.title"
+            cols="12"
+            md="4"
+          >
+            <v-card class="value-card h-100 text-center" elevation="2">
+              <v-card-text class="pa-8">
+                <v-icon
+                  :icon="raison.icon"
+                  size="64"
+                  :color="raison.color"
+                  class="mb-4"
+                />
+                <h3 class="text-h5 font-weight-bold mb-4 text-primary">
+                  {{ raison.title }}
+                </h3>
+                <p class="text-body-1">{{ raison.description }}</p>
+              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </section>
+
+    <!-- Bénéfices Section -->
+    <section class="py-16">
+      <v-container>
+        <v-row>
+          <v-col cols="12" class="text-center mb-12">
+            <h2 class="text-h3 font-weight-bold mb-4 text-primary">Que gagnez-vous avec ESG-STRATEGIES ?</h2>
+            <p class="text-h6 text-grey-darken-1">
+              Nos équipes de spécialistes proposent une palette de solutions pour
+            </p>
+          </v-col>
+        </v-row>
+        
+        <v-row justify="center">
+          <v-col cols="12" md="10">
+            <v-list class="bg-transparent">
+              <v-list-item
+                v-for="benefice in benefices"
+                :key="benefice.text"
+                class="mb-4"
+              >
+                <template v-slot:prepend>
+                  <v-icon :icon="benefice.icon" :color="benefice.color" size="40" class="mr-4" />
+                </template>
+                <v-list-item-title class="text-h6 font-weight-medium">
+                  {{ benefice.text }}
+                </v-list-item-title>
+              </v-list-item>
+            </v-list>
+          </v-col>
+        </v-row>
+      </v-container>
+    </section>
+
+    <!-- Engagements RSE Section -->
+    <section class="py-16 bg-grey-lighten-5">
+      <v-container>
+        <v-row justify="center">
+          <v-col cols="12" md="10">
+            <div class="text-center mb-12">
+              <h2 class="text-h3 font-weight-bold mb-6 text-primary">Engagements RSE</h2>
+            </div>
+            
+            <v-card elevation="2" class="pa-8">
+              <p class="text-body-1 text-center">
+                ESG-Stratégies s'engage à pratiquer ce qu'elle prêche en intégrant les principes de développement durable dans ses propres opérations et en démontrant un leadership responsable dans tous les aspects de son activité.
               </p>
             </v-card>
           </v-col>
@@ -282,6 +408,45 @@ export default {
   name: 'About',
   data() {
     return {
+      raisonsChoisir: [
+        {
+          title: 'Notre expertise',
+          description: 'Parce que vous écouter et répondre à vos attentes est notre raison d\'être',
+          icon: 'mdi-account-star',
+          color: 'primary'
+        },
+        {
+          title: 'Notre Simplicité',
+          description: 'Car nos solutions accessibles et faciles d\'utilisation garantissent votre satisfaction',
+          icon: 'mdi-hand-heart',
+          color: 'secondary'
+        },
+        {
+          title: 'Notre Excellence',
+          description: 'Car nous associons engagement, énergie et célérité pour atteindre vos objectifs',
+          icon: 'mdi-star-circle',
+          color: 'accent'
+        }
+      ],
+      
+      benefices: [
+        {
+          text: 'Développer votre attractivité et votre positionnement sur les enjeux ESG stratégiques',
+          icon: 'mdi-chart-line-variant',
+          color: 'primary'
+        },
+        {
+          text: 'Donner du sens à vos missions et engager votre collaborateurs partenaires',
+          icon: 'mdi-account-group',
+          color: 'secondary'
+        },
+        {
+          text: 'Améliorer la compétitivité et la performance de votre organisation',
+          icon: 'mdi-trophy',
+          color: 'accent'
+        }
+      ],
+      
       valeurs: [
         {
           title: 'Excellence',

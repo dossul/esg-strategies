@@ -69,16 +69,65 @@
       </v-container>
     </section>
 
-    <!-- Formations Section -->
+    <!-- Catégories de Formations Section -->
     <section class="py-16 bg-grey-lighten-5">
       <v-container>
         <v-row>
           <v-col cols="12" class="text-center mb-12">
             <h2 class="text-h3 font-weight-bold mb-4 text-primary">
-              Nos Formations
+              Nos Catégories de Formations
             </h2>
             <p class="text-h6 text-grey-darken-1">
-              Des programmes complets pour développer vos compétences ESG
+              Des programmes structurés pour tous les niveaux
+            </p>
+          </v-col>
+        </v-row>
+        
+        <v-row class="mb-8">
+          <v-col
+            v-for="categorie in categoriesFormation"
+            :key="categorie.title"
+            cols="12"
+            md="4"
+          >
+            <v-card class="category-card h-100 text-center" elevation="3" hover>
+              <v-card-text class="pa-8">
+                <v-icon
+                  :icon="categorie.icon"
+                  size="72"
+                  :color="categorie.color"
+                  class="mb-4"
+                />
+                <h3 class="text-h5 font-weight-bold mb-4 text-primary">
+                  {{ categorie.title }}
+                </h3>
+                <p class="text-body-1 mb-4">{{ categorie.description }}</p>
+                <v-btn
+                  :color="categorie.color"
+                  variant="outlined"
+                  @click="scrollToCategory(categorie.id)"
+                >
+                  Découvrir
+                  <v-icon end>mdi-arrow-down</v-icon>
+                </v-btn>
+              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </section>
+
+    <!-- Certifications Internationales Section -->
+    <section id="certifications-internationales" class="py-16">
+      <v-container>
+        <v-row>
+          <v-col cols="12" class="text-center mb-12">
+            <v-icon icon="mdi-certificate" size="64" color="primary" class="mb-4" />
+            <h2 class="text-h3 font-weight-bold mb-4 text-primary">
+              Certifications Internationales
+            </h2>
+            <p class="text-h6 text-grey-darken-1">
+              Formations certifiantes conformes aux standards internationaux
             </p>
           </v-col>
         </v-row>
@@ -160,6 +209,112 @@
                   <v-icon end>mdi-arrow-right</v-icon>
                 </v-btn>
               </v-card-actions>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </section>
+
+    <!-- Certifications ESG-Stratégies Section -->
+    <section id="certifications-esg" class="py-16 bg-grey-lighten-5">
+      <v-container>
+        <v-row>
+          <v-col cols="12" class="text-center mb-12">
+            <v-icon icon="mdi-medal" size="64" color="secondary" class="mb-4" />
+            <h2 class="text-h3 font-weight-bold mb-4 text-primary">
+              Certifications ESG-Stratégies
+            </h2>
+            <p class="text-h6 text-grey-darken-1">
+              Certifications propriétaires développées par nos experts
+            </p>
+          </v-col>
+        </v-row>
+        
+        <v-row justify="center">
+          <v-col cols="12" md="8">
+            <v-card elevation="2" class="pa-8 text-center">
+              <v-icon icon="mdi-information" size="48" color="secondary" class="mb-4" />
+              <h3 class="text-h5 font-weight-bold mb-4 text-primary">
+                Programmes en développement
+              </h3>
+              <p class="text-body-1 mb-6">
+                Nos certifications exclusives ESG-Stratégies sont actuellement en cours d'élaboration. 
+                Elles seront conçues pour répondre spécifiquement aux enjeux de durabilité du contexte africain.
+              </p>
+              <v-btn
+                to="/contact"
+                color="secondary"
+                variant="outlined"
+                size="large"
+              >
+                Être informé du lancement
+                <v-icon end>mdi-bell</v-icon>
+              </v-btn>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </section>
+
+    <!-- Master Class Section -->
+    <section id="master-class" class="py-16">
+      <v-container>
+        <v-row>
+          <v-col cols="12" class="text-center mb-12">
+            <v-icon icon="mdi-school" size="64" color="accent" class="mb-4" />
+            <h2 class="text-h3 font-weight-bold mb-4 text-primary">
+              Master Class
+            </h2>
+            <p class="text-h6 text-grey-darken-1">
+              Sessions exclusives avec des experts internationaux
+            </p>
+          </v-col>
+        </v-row>
+        
+        <v-row justify="center">
+          <v-col cols="12" md="8">
+            <v-card elevation="2" class="pa-8">
+              <div class="text-center mb-6">
+                <v-icon icon="mdi-account-tie" size="48" color="accent" class="mb-4" />
+                <h3 class="text-h5 font-weight-bold mb-4 text-primary">
+                  Sessions d'excellence
+                </h3>
+              </div>
+              <p class="text-body-1 mb-6">
+                Nos Master Class sont des sessions intensives animées par des experts reconnus internationalement. 
+                Elles offrent une opportunité unique d'approfondir des thématiques ESG stratégiques et d'échanger 
+                avec des leaders d'opinion du secteur.
+              </p>
+              
+              <v-divider class="my-6" />
+              
+              <div class="mb-4">
+                <h4 class="text-h6 font-weight-bold mb-3">Caractéristiques :</h4>
+                <v-list class="bg-transparent">
+                  <v-list-item
+                    v-for="caracteristique in masterClassCaracteristiques"
+                    :key="caracteristique"
+                    class="px-0"
+                  >
+                    <template v-slot:prepend>
+                      <v-icon icon="mdi-check-circle" color="accent" size="20" class="mr-3" />
+                    </template>
+                    <v-list-item-title>{{ caracteristique }}</v-list-item-title>
+                  </v-list-item>
+                </v-list>
+              </div>
+              
+              <div class="text-center mt-6">
+                <v-btn
+                  to="/contact"
+                  color="accent"
+                  variant="flat"
+                  size="large"
+                >
+                  Demander le calendrier des Master Class
+                  <v-icon end>mdi-calendar</v-icon>
+                </v-btn>
+              </div>
             </v-card>
           </v-col>
         </v-row>
@@ -330,6 +485,39 @@ export default {
     return {
       formationDialog: false,
       selectedFormation: null,
+      
+      categoriesFormation: [
+        {
+          id: 'certifications-internationales',
+          title: 'Certifications Internationales',
+          description: 'Formations certifiantes conformes aux normes ISO et standards internationaux reconnus',
+          icon: 'mdi-certificate',
+          color: 'primary'
+        },
+        {
+          id: 'certifications-esg',
+          title: 'Certifications ESG-Stratégies',
+          description: 'Certifications propriétaires développées par nos experts pour le contexte africain',
+          icon: 'mdi-medal',
+          color: 'secondary'
+        },
+        {
+          id: 'master-class',
+          title: 'Master Class',
+          description: 'Sessions exclusives animées par des experts internationaux de haut niveau',
+          icon: 'mdi-school',
+          color: 'accent'
+        }
+      ],
+      
+      masterClassCaracteristiques: [
+        'Sessions intensives de 1 à 2 jours',
+        'Intervenants experts internationaux',
+        'Groupes restreints pour favoriser les échanges',
+        'Thématiques ESG stratégiques et d\'actualité',
+        'Networking avec des leaders du secteur',
+        'Certificat de participation'
+      ],
       
       publicCible: [
         {
@@ -566,6 +754,13 @@ export default {
     downloadCatalog() {
       // Simulation du téléchargement du catalogue
       this.$toast.success('Le catalogue sera bientôt disponible en téléchargement.')
+    },
+    
+    scrollToCategory(categoryId) {
+      const element = document.getElementById(categoryId)
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }
     }
   }
 }

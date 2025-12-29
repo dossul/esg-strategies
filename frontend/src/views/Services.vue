@@ -254,93 +254,106 @@ export default {
       
       categoriesServices: [
         {
-          title: 'Environnement et Ressources Naturelles',
-          description: 'Gestion durable des ressources et protection de l\'environnement',
-          icon: 'mdi-leaf',
-          color: 'primary',
-          detailedDescription: 'Nous accompagnons les organisations dans la mise en place de stratégies environnementales durables, la gestion optimisée des ressources naturelles et la réduction de leur empreinte écologique.',
-          services: [
-            'Évaluation d\'impact environnemental',
-            'Gestion des déchets et économie circulaire',
-            'Stratégies de réduction carbone',
-            'Conservation de la biodiversité',
-            'Gestion durable de l\'eau',
-            'Énergies renouvelables'
-          ]
-        },
-        {
-          title: 'Gouvernance',
-          description: 'Amélioration des structures de gouvernance et transparence',
-          icon: 'mdi-account-group',
-          color: 'secondary',
-          detailedDescription: 'Nous aidons les organisations à renforcer leurs structures de gouvernance, améliorer la transparence et mettre en place des mécanismes de contrôle efficaces.',
-          services: [
-            'Audit de gouvernance',
-            'Mise en place de comités ESG',
-            'Politiques de transparence',
-            'Gestion des risques',
-            'Conformité réglementaire',
-            'Formation des dirigeants'
-          ]
-        },
-        {
-          title: 'Société et Impact Social',
-          description: 'Développement de l\'impact social et engagement communautaire',
-          icon: 'mdi-heart-multiple',
-          color: 'accent',
-          detailedDescription: 'Nous développons des stratégies pour maximiser l\'impact social positif des organisations et renforcer leur engagement auprès des communautés locales.',
-          services: [
-            'Programmes de responsabilité sociale',
-            'Engagement communautaire',
-            'Développement local',
-            'Inclusion et diversité',
-            'Conditions de travail',
-            'Dialogue avec les parties prenantes'
-          ]
-        },
-        {
-          title: 'Publications et Recherche',
-          description: 'Recherche appliquée et publications spécialisées',
-          icon: 'mdi-book-open-variant',
-          color: 'neutral',
-          detailedDescription: 'Nous produisons des recherches de qualité et des publications spécialisées pour faire avancer les connaissances dans le domaine du développement durable.',
-          services: [
-            'Études sectorielles',
-            'Rapports de recherche',
-            'Guides pratiques',
-            'Benchmarking',
-            'Veille réglementaire',
-            'Publications académiques'
-          ]
-        },
-        {
-          title: 'Formations',
-          description: 'Renforcement des capacités et formation spécialisée',
-          icon: 'mdi-school',
-          color: 'primary',
-          detailedDescription: 'Nous proposons des programmes de formation adaptés pour renforcer les capacités de vos équipes en matière de développement durable et ESG.',
-          services: [
-            'Formations ESG sur mesure',
-            'Ateliers pratiques',
-            'Certification professionnelle',
-            'Formation de formateurs',
-            'E-learning',
-            'Accompagnement post-formation'
-          ]
-        },
-        {
-          title: 'Conseils en Stratégies RSE et DD',
-          description: 'Conseil stratégique en RSE et développement durable',
+          title: 'Stratégies Intégrées RSE/ESG',
+          description: 'Diagnostic, politiques, reporting et notation RSE/ESG',
           icon: 'mdi-strategy',
-          color: 'secondary',
-          detailedDescription: 'Nous accompagnons les organisations dans l\'élaboration et la mise en œuvre de leurs stratégies RSE et développement durable.',
+          color: 'primary',
+          detailedDescription: 'Nous accompagnons les organisations dans l\'élaboration et la mise en œuvre de leurs stratégies RSE/ESG, de l\'évaluation initiale jusqu\'à la notation et au reporting extra-financier.',
           services: [
-            'Diagnostic RSE',
-            'Stratégie de développement durable',
-            'Plan d\'action ESG',
-            'Indicateurs de performance',
-            'Reporting extra-financier',
-            'Accompagnement à la certification'
+            'Diagnostic RSE / ESG - Évaluation structurée des enjeux, risques et opportunités RSE/ESG de votre organisation, basée sur les référentiels internationaux',
+            'Élaboration de politiques et plans d\'action RSE / ESG - Conception de politiques RSE/ESG et de plans d\'action opérationnels alignés avec votre stratégie',
+            'Reporting RSE / ESG - Structuration et production de reportings RSE/ESG conformes aux standards internationaux (ISO 26000, ODD, GRI, exigences ESG bancaires)',
+            'Notation RSE / ESG - Évaluation et notation indépendante de la performance RSE/ESG pour mesurer votre maturité extra-financière'
+          ]
+        },
+        {
+          title: 'Mesure et valorisation des performances ESG',
+          description: 'Évaluation et optimisation des performances extra-financières',
+          icon: 'mdi-chart-line',
+          color: 'secondary',
+          detailedDescription: 'Nous mettons en place des systèmes de mesure et d\'analyse des performances ESG pour valoriser vos actions et piloter votre amélioration continue.',
+          services: [
+            'Définition d\'indicateurs de performance ESG',
+            'Tableaux de bord de suivi',
+            'Analyse comparative (benchmarking)',
+            'Valorisation des impacts positifs',
+            'Communication extra-financière',
+            'Amélioration continue des performances'
+          ]
+        },
+        {
+          title: 'Évaluations Environnementales',
+          description: 'Études d\'impact environnemental et social (EIES)',
+          icon: 'mdi-file-chart',
+          color: 'accent',
+          detailedDescription: 'Nous réalisons des évaluations environnementales complètes et des études d\'impact pour assurer la conformité réglementaire et minimiser les impacts négatifs de vos projets.',
+          services: [
+            'Études d\'Impact Environnemental et Social (EIES)',
+            'Évaluations environnementales stratégiques',
+            'Audits environnementaux',
+            'Plans de gestion environnementale',
+            'Monitoring environnemental',
+            'Conformité réglementaire'
+          ]
+        },
+        {
+          title: 'Économie circulaire',
+          description: 'Transition vers des modèles économiques circulaires',
+          icon: 'mdi-recycle',
+          color: 'primary',
+          detailedDescription: 'Nous accompagnons les organisations dans l\'adoption de pratiques d\'économie circulaire pour optimiser l\'utilisation des ressources et réduire les déchets.',
+          services: [
+            'Diagnostic économie circulaire',
+            'Stratégies de réduction des déchets',
+            'Éco-conception de produits',
+            'Valorisation des sous-produits',
+            'Symbioses industrielles',
+            'Économie de la fonctionnalité'
+          ]
+        },
+        {
+          title: 'Efficacité et transition énergétiques',
+          description: 'Optimisation énergétique et transition vers les énergies renouvelables',
+          icon: 'mdi-lightning-bolt',
+          color: 'secondary',
+          detailedDescription: 'Nous développons des stratégies d\'efficacité énergétique et accompagnons la transition vers des sources d\'énergie plus durables.',
+          services: [
+            'Audits énergétiques',
+            'Plans d\'efficacité énergétique',
+            'Transition énergétique',
+            'Énergies renouvelables',
+            'Réduction de l\'empreinte carbone',
+            'Certification énergétique'
+          ]
+        },
+        {
+          title: 'Écosystèmes et ressources naturelles',
+          description: 'Gestion durable des ressources et protection de la biodiversité',
+          icon: 'mdi-leaf',
+          color: 'accent',
+          detailedDescription: 'Nous accompagnons les organisations dans la gestion durable des écosystèmes et des ressources naturelles pour préserver la biodiversité et assurer la pérennité des ressources.',
+          services: [
+            'Gestion durable des ressources naturelles',
+            'Conservation de la biodiversité',
+            'Gestion intégrée de l\'eau',
+            'Protection des écosystèmes',
+            'Restauration écologique',
+            'Services écosystémiques'
+          ]
+        },
+        {
+          title: 'Événements sur la durabilité',
+          description: 'Organisation d\'événements et conférences ESG',
+          icon: 'mdi-calendar-star',
+          color: 'primary',
+          detailedDescription: 'Nous organisons des événements de référence pour promouvoir le dialogue, le partage d\'expériences et la montée en compétences sur les enjeux de durabilité.',
+          services: [
+            'Africa Sustainability and Business Intelligence Conference (ASBIC)',
+            'AfterWork ESG',
+            'Boot Camp Écologie',
+            'Webinaires thématiques',
+            'Ateliers de formation',
+            'Forums d\'échanges'
           ]
         }
       ],
