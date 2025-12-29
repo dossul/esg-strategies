@@ -316,10 +316,10 @@
                   </v-col>
                   <v-col cols="4" class="text-center">
                     <div class="mega-menu-item">
-                      <v-icon size="48" color="amber" class="mb-3">mdi-trophy</v-icon>
-                      <h3 class="text-h6 mb-2">Récompenses</h3>
-                      <p class="text-body-2 mb-3">Prix et reconnaissances ESG</p>
-                      <v-btn to="/recompenses" variant="outlined" size="small">
+                      <v-icon size="48" color="green" class="mb-3">mdi-leaf</v-icon>
+                      <h3 class="text-h6 mb-2">Bootcamp écologie</h3>
+                      <p class="text-body-2 mb-3">Formation intensive en écologie</p>
+                      <v-btn to="/bootcamp-ecologie" variant="outlined" size="small">
                         En savoir plus
                       </v-btn>
                     </div>
@@ -515,8 +515,8 @@
           <v-list-item to="/les-after-work-rse" @click="drawer = false">
             <v-list-item-title>Afterwork RSE</v-list-item-title>
           </v-list-item>
-          <v-list-item to="/recompenses" @click="drawer = false">
-            <v-list-item-title>Récompenses</v-list-item-title>
+          <v-list-item to="/bootcamp-ecologie" @click="drawer = false">
+            <v-list-item-title>Bootcamp écologie</v-list-item-title>
           </v-list-item>
         </v-list-group>
 
