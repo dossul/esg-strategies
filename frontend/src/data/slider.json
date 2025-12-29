@@ -13,199 +13,6 @@
   },
   "slides": [
     {
-      "id": 1,
-      "title": {
-        "text": "Efficacité et transition énergétique",
-        "animation": "slideInLeft",
-        "delay": 300,
-        "duration": 800,
-        "style": {
-          "fontSize": "clamp(2rem, 5vw, 3.5rem)",
-          "fontWeight": "800",
-          "color": "#ffffff",
-          "textShadow": "2px 2px 10px rgba(0,0,0,0.4)"
-        }
-      },
-      "subtitle": {
-        "text": "Optimisation et énergies renouvelables",
-        "animation": "slideInLeft",
-        "delay": 600,
-        "duration": 800,
-        "style": {
-          "fontSize": "clamp(1rem, 2.5vw, 1.6rem)",
-          "fontWeight": "500",
-          "color": "#f0f0f0",
-          "opacity": "0.95"
-        }
-      },
-      "description": {
-        "text": "Implémenter des solutions d'optimisation énergétique et de transition vers les énergies renouvelables pour une performance durable et une réduction efficace de votre empreinte carbone.",
-        "animation": "slideInLeft",
-        "delay": 900,
-        "duration": 800,
-        "style": {
-          "fontSize": "clamp(0.9rem, 2vw, 1.2rem)",
-          "lineHeight": "1.6",
-          "color": "#e8e8e8",
-          "maxWidth": "100%"
-        }
-      },
-      "primaryButton": {
-        "text": "Découvrir nos solutions",
-        "url": "/services#environnement",
-        "animation": "slideInUp",
-        "delay": 1200,
-        "duration": 600,
-        "style": {
-          "background": "rgba(255,255,255,0.15)",
-          "border": "2px solid rgba(255,255,255,0.9)",
-          "color": "#ffffff",
-          "padding": "14px 28px",
-          "borderRadius": "8px",
-          "fontWeight": "600",
-          "backdropFilter": "blur(15px)"
-        }
-      },
-      "secondaryButton": {
-        "text": "En savoir plus",
-        "url": "https://esg-strategies.com/environnement",
-        "animation": "slideInUp",
-        "delay": 1400,
-        "duration": 600,
-        "style": {
-          "background": "transparent",
-          "color": "#ffffff",
-          "padding": "14px 24px",
-          "fontWeight": "500"
-        }
-      },
-      "image": {
-        "src": "/assets/efficacite_et_transition_energetique.jpg",
-        "alt": "Solutions Environnementales",
-        "animation": "slideInRight",
-        "delay": 400,
-        "duration": 1000,
-        "style": {
-          "width": "auto",
-          "height": "auto",
-          "maxWidth": "none",
-          "maxHeight": "none",
-          "objectFit": "none",
-          "filter": "drop-shadow(0 15px 35px rgba(0,0,0,0.2))",
-          "borderRadius": "12px"
-        }
-      },
-      "background": {
-          "type": "image",
-          "value": "/assets/efficacite_et_transition_energetique.jpg",
-          "overlay": "rgba(0, 0, 0, 0.4)"
-        },
-      "layout": {
-        "textPosition": "top",
-        "imagePosition": "bottom",
-        "contentWidth": "100%",
-        "imageWidth": "100%",
-        "direction": "column",
-        "textAlign": "center"
-      }
-    },
-    {
-      "id": 2,
-      "title": {
-        "text": "Économie circulaire",
-        "animation": "fadeInDown",
-        "delay": 300,
-        "duration": 800,
-        "style": {
-          "fontSize": "clamp(2rem, 5vw, 3.5rem)",
-          "fontWeight": "800",
-          "color": "#ffffff",
-          "textShadow": "2px 2px 10px rgba(0,0,0,0.4)"
-        }
-      },
-      "subtitle": {
-        "text": "Stratégies zéro déchets",
-        "animation": "fadeInDown",
-        "delay": 600,
-        "duration": 800,
-        "style": {
-          "fontSize": "clamp(1rem, 2.5vw, 1.6rem)",
-          "fontWeight": "500",
-          "color": "#f0f0f0",
-          "opacity": "0.95"
-        }
-      },
-      "description": {
-        "text": "Adopter des stratégies d'économie circulaire pour minimiser les déchets et optimiser les ressources.",
-        "animation": "fadeInDown",
-        "delay": 900,
-        "duration": 800,
-        "style": {
-          "fontSize": "clamp(0.9rem, 2vw, 1.2rem)",
-          "lineHeight": "1.6",
-          "color": "#e8e8e8",
-          "maxWidth": "100%"
-        }
-      },
-      "primaryButton": {
-        "text": "Notre expertise",
-        "url": "/services#economie-circulaire",
-        "animation": "zoomIn",
-        "delay": 1200,
-        "duration": 600,
-        "style": {
-          "background": "rgba(255,255,255,0.15)",
-          "color": "#ffffff",
-          "padding": "14px 28px",
-          "borderRadius": "8px",
-          "fontWeight": "600",
-          "backdropFilter": "blur(15px)"
-        }
-      },
-      "secondaryButton": {
-        "text": "Découvrir",
-        "url": "https://esg-strategies.com/economie-circulaire",
-        "animation": "zoomIn",
-        "delay": 1400,
-        "duration": 600,
-        "style": {
-          "background": "transparent",
-          "color": "#ffffff",
-          "padding": "14px 24px",
-          "fontWeight": "500"
-        }
-      },
-      "image": {
-        "src": "/assets/banner2.jpg",
-        "alt": "Économie circulaire",
-        "animation": "slideInLeft",
-        "delay": 400,
-        "duration": 1000,
-        "style": {
-          "width": "auto",
-          "height": "auto",
-          "maxWidth": "none",
-          "maxHeight": "none",
-          "objectFit": "none",
-          "filter": "drop-shadow(0 15px 35px rgba(0,0,0,0.2))",
-          "borderRadius": "12px"
-        }
-      },
-      "background": {
-          "type": "image",
-          "value": "/assets/banner2.jpg",
-          "overlay": "rgba(0, 0, 0, 0.4)"
-        },
-      "layout": {
-        "textPosition": "top",
-        "imagePosition": "bottom",
-        "contentWidth": "100%",
-        "imageWidth": "100%",
-        "direction": "column",
-        "textAlign": "center"
-      }
-    },
-    {
       "id": 4,
       "title": {
         "text": "Stratégies Intégrées ESG",
@@ -303,10 +110,10 @@
       }
     },
     {
-      "id": 5,
+      "id": 8,
       "title": {
-        "text": "Économie bas carbone et changements climatiques",
-        "animation": "fadeInUp",
+        "text": "Mesure et Valorisation des Performances ESG",
+        "animation": "fadeInDown",
         "delay": 300,
         "duration": 800,
         "style": {
@@ -317,8 +124,8 @@
         }
       },
       "subtitle": {
-        "text": "Stratégies de neutralité carbone/Net Zéro",
-        "animation": "fadeInUp",
+        "text": "Awards ESG, Notation et Classement, Labellisation et Certification",
+        "animation": "fadeInDown",
         "delay": 600,
         "duration": 800,
         "style": {
@@ -329,105 +136,8 @@
         }
       },
       "description": {
-        "text": "Découvrir nos approches pour une économie à faible émission de carbone et des stratégies efficaces pour atteindre la neutralité carbone.",
-        "animation": "fadeInUp",
-        "delay": 900,
-        "duration": 800,
-        "style": {
-          "fontSize": "clamp(0.9rem, 2vw, 1.2rem)",
-          "lineHeight": "1.6",
-          "color": "#e8e8e8",
-          "maxWidth": "100%"
-        }
-      },
-      "primaryButton": {
-        "text": "En savoir plus",
-        "url": "/services#economie-bas-carbone",
-        "animation": "pulse",
-        "delay": 1200,
-        "duration": 600,
-        "style": {
-          "background": "rgba(255,255,255,0.15)",
-          "border": "2px solid rgba(255,255,255,0.9)",
-          "color": "#ffffff",
-          "padding": "14px 28px",
-          "borderRadius": "8px",
-          "fontWeight": "600",
-          "backdropFilter": "blur(15px)"
-        }
-      },
-      "secondaryButton": {
-        "text": "Nos stratégies",
-        "url": "https://esg-strategies.com/neutralite-carbone",
-        "animation": "pulse",
-        "delay": 1400,
-        "duration": 600,
-        "style": {
-          "background": "transparent",
-          "color": "#ffffff",
-          "padding": "14px 24px",
-          "fontWeight": "500"
-        }
-      },
-      "image": {
-        "src": "/assets/banner_net_zero.jpg",
-        "alt": "Économie bas carbone",
-        "animation": "slideInLeft",
-        "delay": 400,
-        "duration": 1000,
-        "style": {
-          "width": "auto",
-          "height": "auto",
-          "maxWidth": "none",
-          "maxHeight": "none",
-          "objectFit": "none",
-          "filter": "drop-shadow(0 15px 35px rgba(0,0,0,0.2))",
-          "borderRadius": "12px"
-        }
-      },
-      "background": {
-        "type": "image",
-        "value": "/assets/banner_net_zero.jpg",
-        "overlay": "rgba(0,0,0,0.3)"
-      },
-      "layout": {
-        "textPosition": "top",
-        "imagePosition": "bottom",
-        "contentWidth": "100%",
-        "imageWidth": "100%",
-        "direction": "column",
-        "textAlign": "center"
-      }
-    },
-    {
-      "id": 6,
-      "title": {
-        "text": "Écosystèmes et ressources naturelles",
-        "animation": "fadeInUp",
-        "delay": 300,
-        "duration": 800,
-        "style": {
-          "fontSize": "clamp(2rem, 5vw, 3.5rem)",
-          "fontWeight": "800",
-          "color": "#ffffff",
-          "textShadow": "2px 2px 10px rgba(0,0,0,0.4)"
-        }
-      },
-      "subtitle": {
-        "text": "Stratégies biodiversité pour entreprises et territoires",
-        "animation": "fadeInUp",
-        "delay": 600,
-        "duration": 800,
-        "style": {
-          "fontSize": "clamp(1rem, 2.5vw, 1.6rem)",
-          "fontWeight": "500",
-          "color": "#f0f0f0",
-          "opacity": "0.95"
-        }
-      },
-      "description": {
-        "text": "Découvrir nos stratégies pour préserver la biodiversité et intégrer les ressources naturelles dans votre entreprise et territoire.",
-        "animation": "fadeInUp",
+        "text": "Participer à nos initiatives pour organiser des Awards ESG, effectuer la notation et le classement ESG, ainsi que la labellisation et certification de vos performances durables.",
+        "animation": "fadeInDown",
         "delay": 900,
         "duration": 800,
         "style": {
@@ -439,13 +149,12 @@
       },
       "primaryButton": {
         "text": "Notre expertise",
-        "url": "/services#ecosysteme",
-        "animation": "pulse",
+        "url": "/services#performances-esg",
+        "animation": "zoomIn",
         "delay": 1200,
         "duration": 600,
         "style": {
           "background": "rgba(255,255,255,0.15)",
-          "border": "2px solid rgba(255,255,255,0.9)",
           "color": "#ffffff",
           "padding": "14px 28px",
           "borderRadius": "8px",
@@ -455,8 +164,8 @@
       },
       "secondaryButton": {
         "text": "En savoir plus",
-        "url": "https://esg-strategies.com/ecosysteme",
-        "animation": "pulse",
+        "url": "https://esg-strategies.com/performances-esg",
+        "animation": "zoomIn",
         "delay": 1400,
         "duration": 600,
         "style": {
@@ -467,8 +176,8 @@
         }
       },
       "image": {
-        "src": "/assets/banner3.jpg",
-        "alt": "Écosystème et ressources naturelles",
+        "src": "/assets/banner_mesure.jpg",
+        "alt": "Évaluer, Mesurer et Valoriser les Performances ESG",
         "animation": "slideInLeft",
         "delay": 400,
         "duration": 1000,
@@ -484,7 +193,7 @@
       },
       "background": {
         "type": "image",
-        "value": "/assets/banner3.jpg",
+        "value": "/assets/banner_mesure.jpg",
         "overlay": "rgba(0,0,0,0.3)"
       },
       "layout": {
@@ -594,9 +303,9 @@
       }
     },
     {
-      "id": 8,
+      "id": 2,
       "title": {
-        "text": "Mesure et Valorisation des Performances ESG",
+        "text": "Économie circulaire",
         "animation": "fadeInDown",
         "delay": 300,
         "duration": 800,
@@ -608,7 +317,7 @@
         }
       },
       "subtitle": {
-        "text": "Awards ESG, Notation et Classement, Labellisation et Certification",
+        "text": "Stratégies zéro déchets",
         "animation": "fadeInDown",
         "delay": 600,
         "duration": 800,
@@ -620,7 +329,7 @@
         }
       },
       "description": {
-        "text": "Participer à nos initiatives pour organiser des Awards ESG, effectuer la notation et le classement ESG, ainsi que la labellisation et certification de vos performances durables.",
+        "text": "Adopter des stratégies d'économie circulaire pour minimiser les déchets et optimiser les ressources.",
         "animation": "fadeInDown",
         "delay": 900,
         "duration": 800,
@@ -633,7 +342,7 @@
       },
       "primaryButton": {
         "text": "Notre expertise",
-        "url": "/services#performances-esg",
+        "url": "/services#economie-circulaire",
         "animation": "zoomIn",
         "delay": 1200,
         "duration": 600,
@@ -647,8 +356,8 @@
         }
       },
       "secondaryButton": {
-        "text": "En savoir plus",
-        "url": "https://esg-strategies.com/performances-esg",
+        "text": "Découvrir",
+        "url": "https://esg-strategies.com/economie-circulaire",
         "animation": "zoomIn",
         "delay": 1400,
         "duration": 600,
@@ -660,8 +369,8 @@
         }
       },
       "image": {
-        "src": "/assets/banner_mesure.jpg",
-        "alt": "Évaluer, Mesurer et Valoriser les Performances ESG",
+        "src": "/assets/banner2.jpg",
+        "alt": "Économie circulaire",
         "animation": "slideInLeft",
         "delay": 400,
         "duration": 1000,
@@ -677,7 +386,298 @@
       },
       "background": {
         "type": "image",
-        "value": "/assets/banner_mesure.jpg",
+        "value": "/assets/banner2.jpg",
+        "overlay": "rgba(0, 0, 0, 0.4)"
+      },
+      "layout": {
+        "textPosition": "top",
+        "imagePosition": "bottom",
+        "contentWidth": "100%",
+        "imageWidth": "100%",
+        "direction": "column",
+        "textAlign": "center"
+      }
+    },
+    {
+      "id": 5,
+      "title": {
+        "text": "Économie bas carbone et changements climatiques",
+        "animation": "fadeInUp",
+        "delay": 300,
+        "duration": 800,
+        "style": {
+          "fontSize": "clamp(2rem, 5vw, 3.5rem)",
+          "fontWeight": "800",
+          "color": "#ffffff",
+          "textShadow": "2px 2px 10px rgba(0,0,0,0.4)"
+        }
+      },
+      "subtitle": {
+        "text": "Stratégies de neutralité carbone/Net Zéro",
+        "animation": "fadeInUp",
+        "delay": 600,
+        "duration": 800,
+        "style": {
+          "fontSize": "clamp(1rem, 2.5vw, 1.6rem)",
+          "fontWeight": "500",
+          "color": "#f0f0f0",
+          "opacity": "0.95"
+        }
+      },
+      "description": {
+        "text": "Découvrir nos approches pour une économie à faible émission de carbone et des stratégies efficaces pour atteindre la neutralité carbone.",
+        "animation": "fadeInUp",
+        "delay": 900,
+        "duration": 800,
+        "style": {
+          "fontSize": "clamp(0.9rem, 2vw, 1.2rem)",
+          "lineHeight": "1.6",
+          "color": "#e8e8e8",
+          "maxWidth": "100%"
+        }
+      },
+      "primaryButton": {
+        "text": "En savoir plus",
+        "url": "/services#economie-bas-carbone",
+        "animation": "pulse",
+        "delay": 1200,
+        "duration": 600,
+        "style": {
+          "background": "rgba(255,255,255,0.15)",
+          "border": "2px solid rgba(255,255,255,0.9)",
+          "color": "#ffffff",
+          "padding": "14px 28px",
+          "borderRadius": "8px",
+          "fontWeight": "600",
+          "backdropFilter": "blur(15px)"
+        }
+      },
+      "secondaryButton": {
+        "text": "Nos stratégies",
+        "url": "https://esg-strategies.com/neutralite-carbone",
+        "animation": "pulse",
+        "delay": 1400,
+        "duration": 600,
+        "style": {
+          "background": "transparent",
+          "color": "#ffffff",
+          "padding": "14px 24px",
+          "fontWeight": "500"
+        }
+      },
+      "image": {
+        "src": "/assets/banner_net_zero.jpg",
+        "alt": "Économie bas carbone",
+        "animation": "slideInLeft",
+        "delay": 400,
+        "duration": 1000,
+        "style": {
+          "width": "auto",
+          "height": "auto",
+          "maxWidth": "none",
+          "maxHeight": "none",
+          "objectFit": "none",
+          "filter": "drop-shadow(0 15px 35px rgba(0,0,0,0.2))",
+          "borderRadius": "12px"
+        }
+      },
+      "background": {
+        "type": "image",
+        "value": "/assets/banner_net_zero.jpg",
+        "overlay": "rgba(0,0,0,0.3)"
+      },
+      "layout": {
+        "textPosition": "top",
+        "imagePosition": "bottom",
+        "contentWidth": "100%",
+        "imageWidth": "100%",
+        "direction": "column",
+        "textAlign": "center"
+      }
+    },
+    {
+      "id": 1,
+      "title": {
+        "text": "Efficacité et transition énergétique",
+        "animation": "slideInLeft",
+        "delay": 300,
+        "duration": 800,
+        "style": {
+          "fontSize": "clamp(2rem, 5vw, 3.5rem)",
+          "fontWeight": "800",
+          "color": "#ffffff",
+          "textShadow": "2px 2px 10px rgba(0,0,0,0.4)"
+        }
+      },
+      "subtitle": {
+        "text": "Optimisation et énergies renouvelables",
+        "animation": "slideInLeft",
+        "delay": 600,
+        "duration": 800,
+        "style": {
+          "fontSize": "clamp(1rem, 2.5vw, 1.6rem)",
+          "fontWeight": "500",
+          "color": "#f0f0f0",
+          "opacity": "0.95"
+        }
+      },
+      "description": {
+        "text": "Implémenter des solutions d'optimisation énergétique et de transition vers les énergies renouvelables pour une performance durable et une réduction efficace de votre empreinte carbone.",
+        "animation": "slideInLeft",
+        "delay": 900,
+        "duration": 800,
+        "style": {
+          "fontSize": "clamp(0.9rem, 2vw, 1.2rem)",
+          "lineHeight": "1.6",
+          "color": "#e8e8e8",
+          "maxWidth": "100%"
+        }
+      },
+      "primaryButton": {
+        "text": "Découvrir nos solutions",
+        "url": "/services#environnement",
+        "animation": "slideInUp",
+        "delay": 1200,
+        "duration": 600,
+        "style": {
+          "background": "rgba(255,255,255,0.15)",
+          "border": "2px solid rgba(255,255,255,0.9)",
+          "color": "#ffffff",
+          "padding": "14px 28px",
+          "borderRadius": "8px",
+          "fontWeight": "600",
+          "backdropFilter": "blur(15px)"
+        }
+      },
+      "secondaryButton": {
+        "text": "En savoir plus",
+        "url": "https://esg-strategies.com/environnement",
+        "animation": "slideInUp",
+        "delay": 1400,
+        "duration": 600,
+        "style": {
+          "background": "transparent",
+          "color": "#ffffff",
+          "padding": "14px 24px",
+          "fontWeight": "500"
+        }
+      },
+      "image": {
+        "src": "/assets/efficacite_et_transition_energetique.jpg",
+        "alt": "Solutions Environnementales",
+        "animation": "slideInRight",
+        "delay": 400,
+        "duration": 1000,
+        "style": {
+          "width": "auto",
+          "height": "auto",
+          "maxWidth": "none",
+          "maxHeight": "none",
+          "objectFit": "none",
+          "filter": "drop-shadow(0 15px 35px rgba(0,0,0,0.2))",
+          "borderRadius": "12px"
+        }
+      },
+      "background": {
+        "type": "image",
+        "value": "/assets/efficacite_et_transition_energetique.jpg",
+        "overlay": "rgba(0, 0, 0, 0.4)"
+      },
+      "layout": {
+        "textPosition": "top",
+        "imagePosition": "bottom",
+        "contentWidth": "100%",
+        "imageWidth": "100%",
+        "direction": "column",
+        "textAlign": "center"
+      }
+    },
+    {
+      "id": 6,
+      "title": {
+        "text": "Écosystèmes et ressources naturelles",
+        "animation": "fadeInUp",
+        "delay": 300,
+        "duration": 800,
+        "style": {
+          "fontSize": "clamp(2rem, 5vw, 3.5rem)",
+          "fontWeight": "800",
+          "color": "#ffffff",
+          "textShadow": "2px 2px 10px rgba(0,0,0,0.4)"
+        }
+      },
+      "subtitle": {
+        "text": "Stratégies biodiversité pour entreprises et territoires",
+        "animation": "fadeInUp",
+        "delay": 600,
+        "duration": 800,
+        "style": {
+          "fontSize": "clamp(1rem, 2.5vw, 1.6rem)",
+          "fontWeight": "500",
+          "color": "#f0f0f0",
+          "opacity": "0.95"
+        }
+      },
+      "description": {
+        "text": "Découvrir nos stratégies pour préserver la biodiversité et intégrer les ressources naturelles dans votre entreprise et territoire.",
+        "animation": "fadeInUp",
+        "delay": 900,
+        "duration": 800,
+        "style": {
+          "fontSize": "clamp(0.9rem, 2vw, 1.2rem)",
+          "lineHeight": "1.6",
+          "color": "#e8e8e8",
+          "maxWidth": "100%"
+        }
+      },
+      "primaryButton": {
+        "text": "Notre expertise",
+        "url": "/services#ecosysteme",
+        "animation": "pulse",
+        "delay": 1200,
+        "duration": 600,
+        "style": {
+          "background": "rgba(255,255,255,0.15)",
+          "border": "2px solid rgba(255,255,255,0.9)",
+          "color": "#ffffff",
+          "padding": "14px 28px",
+          "borderRadius": "8px",
+          "fontWeight": "600",
+          "backdropFilter": "blur(15px)"
+        }
+      },
+      "secondaryButton": {
+        "text": "En savoir plus",
+        "url": "https://esg-strategies.com/ecosysteme",
+        "animation": "pulse",
+        "delay": 1400,
+        "duration": 600,
+        "style": {
+          "background": "transparent",
+          "color": "#ffffff",
+          "padding": "14px 24px",
+          "fontWeight": "500"
+        }
+      },
+      "image": {
+        "src": "/assets/banner3.jpg",
+        "alt": "Écosystème et ressources naturelles",
+        "animation": "slideInLeft",
+        "delay": 400,
+        "duration": 1000,
+        "style": {
+          "width": "auto",
+          "height": "auto",
+          "maxWidth": "none",
+          "maxHeight": "none",
+          "objectFit": "none",
+          "filter": "drop-shadow(0 15px 35px rgba(0,0,0,0.2))",
+          "borderRadius": "12px"
+        }
+      },
+      "background": {
+        "type": "image",
+        "value": "/assets/banner3.jpg",
         "overlay": "rgba(0,0,0,0.3)"
       },
       "layout": {
