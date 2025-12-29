@@ -46,7 +46,7 @@
             <v-card class="mega-menu-card" min-width="800">
               <v-card-text class="pa-6">
                 <v-row>
-                  <v-col cols="3" class="text-center">
+                  <v-col cols="4" class="text-center">
                     <div class="mega-menu-item">
                       <v-icon size="48" color="blue" class="mb-3">mdi-information</v-icon>
                       <h3 class="text-h6 mb-2">Présentation</h3>
@@ -56,7 +56,7 @@
                       </v-btn>
                     </div>
                   </v-col>
-                  <v-col cols="3" class="text-center">
+                  <v-col cols="4" class="text-center">
                     <div class="mega-menu-item">
                       <v-icon size="48" color="orange" class="mb-3">mdi-target</v-icon>
                       <h3 class="text-h6 mb-2">Vision & Mission</h3>
@@ -66,17 +66,7 @@
                       </v-btn>
                     </div>
                   </v-col>
-                  <v-col cols="3" class="text-center">
-                    <div class="mega-menu-item">
-                      <v-icon size="48" color="red" class="mb-3">mdi-star</v-icon>
-                      <h3 class="text-h6 mb-2">Pourquoi nous ?</h3>
-                      <p class="text-body-2 mb-3">Les raisons de nous faire confiance</p>
-                      <v-btn to="/pourquoi-nous-choisir" variant="outlined" size="small">
-                        En savoir plus
-                      </v-btn>
-                    </div>
-                  </v-col>
-                  <v-col cols="3" class="text-center">
+                  <v-col cols="4" class="text-center">
                     <div class="mega-menu-item">
                       <v-icon size="48" color="purple" class="mb-3">mdi-handshake</v-icon>
                       <h3 class="text-h6 mb-2">Engagements</h3>
@@ -421,9 +411,6 @@
           </v-list-item>
           <v-list-item to="/vision-mission-valeurs" @click="drawer = false">
             <v-list-item-title>Vision, Mission, Valeurs</v-list-item-title>
-          </v-list-item>
-          <v-list-item to="/pourquoi-nous-choisir" @click="drawer = false">
-            <v-list-item-title>Pourquoi nous choisir ?</v-list-item-title>
           </v-list-item>
           <v-list-item to="/engagement-politique-rse-dd" @click="drawer = false">
             <v-list-item-title>Engagements - Politique RSE et durabilité</v-list-item-title>
