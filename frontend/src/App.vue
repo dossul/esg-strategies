@@ -297,7 +297,7 @@
                   <v-col cols="4" class="text-center">
                     <div class="mega-menu-item">
                       <v-icon size="48" color="indigo" class="mb-3">mdi-presentation</v-icon>
-                      <h3 class="text-h6 mb-2">Conférences</h3>
+                      <h3 class="text-h6 mb-2">Conférence et Awards</h3>
                       <p class="text-body-2 mb-3">Africa Corporate Sustainability Conference</p>
                       <v-btn to="/africa-corporate-sustainability-conference" variant="outlined" size="small">
                         En savoir plus
@@ -318,7 +318,7 @@
                     <div class="mega-menu-item">
                       <v-icon size="48" color="green" class="mb-3">mdi-leaf</v-icon>
                       <h3 class="text-h6 mb-2">Bootcamp écologie</h3>
-                      <p class="text-body-2 mb-3">Formation intensive en écologie</p>
+                      <p class="text-body-2 mb-3">Formation immersive en écologie</p>
                       <v-btn to="/bootcamp-ecologie" variant="outlined" size="small">
                         En savoir plus
                       </v-btn>
@@ -510,7 +510,7 @@
             <v-list-item v-bind="props" title="Événements"></v-list-item>
           </template>
           <v-list-item to="/africa-corporate-sustainability-conference" @click="drawer = false">
-            <v-list-item-title>Conférences</v-list-item-title>
+            <v-list-item-title>Conférence et Awards</v-list-item-title>
           </v-list-item>
           <v-list-item to="/les-after-work-rse" @click="drawer = false">
             <v-list-item-title>Afterwork RSE</v-list-item-title>
