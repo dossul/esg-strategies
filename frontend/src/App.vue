@@ -79,8 +79,8 @@
                   <v-col cols="3" class="text-center">
                     <div class="mega-menu-item">
                       <v-icon size="48" color="purple" class="mb-3">mdi-handshake</v-icon>
-                      <h3 class="text-h6 mb-2">Engagement</h3>
-                      <p class="text-body-2 mb-3">Politique RSE et développement durable</p>
+                      <h3 class="text-h6 mb-2">Engagements</h3>
+                      <p class="text-body-2 mb-3">et durabilité</p>
                       <v-btn to="/engagement-politique-rse-dd" variant="outlined" size="small">
                         En savoir plus
                       </v-btn>
@@ -111,72 +111,82 @@
                   <v-col cols="3" class="text-center">
                     <div class="mega-menu-item">
                       <v-icon size="48" color="primary" class="mb-3">mdi-strategy</v-icon>
-                      <h3 class="text-h6 mb-2">Stratégies Intégrées RSE/ESG</h3>
-                      <p class="text-body-2 mb-3">Diagnostic, reporting et notation RSE/ESG</p>
-                      <v-btn to="/nos-services" variant="outlined" size="small">
+                      <h3 class="text-h6 mb-2">Stratégies ESG/RSE</h3>
+                      <p class="text-body-2 mb-3">Élaboration de stratégies durables</p>
+                      <v-btn to="/strategie-esg-rse" variant="outlined" size="small">
                         En savoir plus
                       </v-btn>
                     </div>
                   </v-col>
                   <v-col cols="3" class="text-center">
                     <div class="mega-menu-item">
-                      <v-icon size="48" color="secondary" class="mb-3">mdi-chart-line</v-icon>
-                      <h3 class="text-h6 mb-2">Mesure performances ESG</h3>
-                      <p class="text-body-2 mb-3">Évaluation et optimisation ESG</p>
-                      <v-btn to="/nos-services" variant="outlined" size="small">
-                        En savoir plus
-                      </v-btn>
-                    </div>
-                  </v-col>
-                  <v-col cols="3" class="text-center">
-                    <div class="mega-menu-item">
-                      <v-icon size="48" color="accent" class="mb-3">mdi-file-chart</v-icon>
+                      <v-icon size="48" color="green" class="mb-3">mdi-earth</v-icon>
                       <h3 class="text-h6 mb-2">Évaluations Environnementales</h3>
-                      <p class="text-body-2 mb-3">Études d'impact (EIES)</p>
-                      <v-btn to="/nos-services" variant="outlined" size="small">
+                      <p class="text-body-2 mb-3">Analyse d'impact environnemental</p>
+                      <v-btn to="/evaluation-environnementale" variant="outlined" size="small">
                         En savoir plus
                       </v-btn>
                     </div>
                   </v-col>
                   <v-col cols="3" class="text-center">
                     <div class="mega-menu-item">
-                      <v-icon size="48" color="primary" class="mb-3">mdi-recycle</v-icon>
+                      <v-icon size="48" color="teal" class="mb-3">mdi-recycle</v-icon>
                       <h3 class="text-h6 mb-2">Économie circulaire</h3>
-                      <p class="text-body-2 mb-3">Transition vers modèles circulaires</p>
-                      <v-btn to="/nos-services" variant="outlined" size="small">
+                      <p class="text-body-2 mb-3">Optimisation des ressources</p>
+                      <v-btn to="/economie-circulaire" variant="outlined" size="small">
+                        En savoir plus
+                      </v-btn>
+                    </div>
+                  </v-col>
+                  <v-col cols="3" class="text-center">
+                    <div class="mega-menu-item">
+                      <v-icon size="48" color="blue" class="mb-3">mdi-cloud-outline</v-icon>
+                      <h3 class="text-h6 mb-2">Neutralité carbone</h3>
+                      <p class="text-body-2 mb-3">Stratégies de décarbonation</p>
+                      <v-btn to="/neutralite-carbone" variant="outlined" size="small">
                         En savoir plus
                       </v-btn>
                     </div>
                   </v-col>
                 </v-row>
-                <!-- Deuxième ligne - 3 services -->
+                <!-- Deuxième ligne - 4 services -->
                 <v-row>
-                  <v-col cols="4" class="text-center">
+                  <v-col cols="3" class="text-center">
                     <div class="mega-menu-item">
-                      <v-icon size="48" color="secondary" class="mb-3">mdi-lightning-bolt</v-icon>
-                      <h3 class="text-h6 mb-2">Efficacité énergétique</h3>
-                      <p class="text-body-2 mb-3">Transition vers énergies durables</p>
-                      <v-btn to="/nos-services" variant="outlined" size="small">
+                      <v-icon size="48" color="light-green" class="mb-3">mdi-leaf</v-icon>
+                      <h3 class="text-h6 mb-2">Biodiversité et écosystèmes</h3>
+                      <p class="text-body-2 mb-3">Protection de la biodiversité</p>
+                      <v-btn to="/biodiversite-ecosystemes" variant="outlined" size="small">
                         En savoir plus
                       </v-btn>
                     </div>
                   </v-col>
-                  <v-col cols="4" class="text-center">
+                  <v-col cols="3" class="text-center">
                     <div class="mega-menu-item">
-                      <v-icon size="48" color="accent" class="mb-3">mdi-leaf</v-icon>
-                      <h3 class="text-h6 mb-2">Écosystèmes et ressources</h3>
-                      <p class="text-body-2 mb-3">Gestion durable et biodiversité</p>
-                      <v-btn to="/nos-services" variant="outlined" size="small">
+                      <v-icon size="48" color="orange" class="mb-3">mdi-account-heart</v-icon>
+                      <h3 class="text-h6 mb-2">Qualité de vie et conditions de travail (QVCT)</h3>
+                      <p class="text-body-2 mb-3">Bien-être au travail</p>
+                      <v-btn to="/qualite-vie-conditions-travail" variant="outlined" size="small">
                         En savoir plus
                       </v-btn>
                     </div>
                   </v-col>
-                  <v-col cols="4" class="text-center">
+                  <v-col cols="3" class="text-center">
                     <div class="mega-menu-item">
-                      <v-icon size="48" color="primary" class="mb-3">mdi-calendar-star</v-icon>
-                      <h3 class="text-h6 mb-2">Événements durabilité</h3>
-                      <p class="text-body-2 mb-3">Conférences et ateliers ESG</p>
-                      <v-btn to="/nos-services" variant="outlined" size="small">
+                      <v-icon size="48" color="purple" class="mb-3">mdi-certificate</v-icon>
+                      <h3 class="text-h6 mb-2">Notation et labellisation ESG</h3>
+                      <p class="text-body-2 mb-3">Certification et évaluation</p>
+                      <v-btn to="/notation-labellisation-esg" variant="outlined" size="small">
+                        En savoir plus
+                      </v-btn>
+                    </div>
+                  </v-col>
+                  <v-col cols="3" class="text-center">
+                    <div class="mega-menu-item">
+                      <v-icon size="48" color="indigo" class="mb-3">mdi-file-document-outline</v-icon>
+                      <h3 class="text-h6 mb-2">Reporting durabilité ESG</h3>
+                      <p class="text-body-2 mb-3">Rapports de durabilité</p>
+                      <v-btn to="/reporting-durabilite-esg" variant="outlined" size="small">
                         En savoir plus
                       </v-btn>
                     </div>
@@ -266,8 +276,8 @@
                   <v-col cols="4" class="text-center">
                     <div class="mega-menu-item">
                       <v-icon size="48" color="indigo" class="mb-3">mdi-presentation</v-icon>
-                      <h3 class="text-h6 mb-2">ASBIC</h3>
-                      <p class="text-body-2 mb-3">Africa Sustainability and Business Intelligence Conference</p>
+                      <h3 class="text-h6 mb-2">Conférences</h3>
+                      <p class="text-body-2 mb-3">Africa Corporate Sustainability Conference</p>
                       <v-btn to="/africa-corporate-sustainability-conference" variant="outlined" size="small">
                         En savoir plus
                       </v-btn>
@@ -276,7 +286,7 @@
                   <v-col cols="4" class="text-center">
                     <div class="mega-menu-item">
                       <v-icon size="48" color="orange" class="mb-3">mdi-glass-cocktail</v-icon>
-                      <h3 class="text-h6 mb-2">AfterWork ESG</h3>
+                      <h3 class="text-h6 mb-2">Afterwork RSE</h3>
                       <p class="text-body-2 mb-3">Rencontres networking et échanges</p>
                       <v-btn to="/les-after-work-rse" variant="outlined" size="small">
                         En savoir plus
@@ -285,10 +295,10 @@
                   </v-col>
                   <v-col cols="4" class="text-center">
                     <div class="mega-menu-item">
-                      <v-icon size="48" color="green" class="mb-3">mdi-pine-tree</v-icon>
-                      <h3 class="text-h6 mb-2">Boot Camp Écologie</h3>
-                      <p class="text-body-2 mb-3">Formation intensive environnement</p>
-                      <v-btn to="/boot-camp-ecologie" variant="outlined" size="small">
+                      <v-icon size="48" color="amber" class="mb-3">mdi-trophy</v-icon>
+                      <h3 class="text-h6 mb-2">Récompenses</h3>
+                      <p class="text-body-2 mb-3">Prix et reconnaissances ESG</p>
+                      <v-btn to="/recompenses" variant="outlined" size="small">
                         En savoir plus
                       </v-btn>
                     </div>
@@ -416,7 +426,7 @@
             <v-list-item-title>Pourquoi nous choisir ?</v-list-item-title>
           </v-list-item>
           <v-list-item to="/engagement-politique-rse-dd" @click="drawer = false">
-            <v-list-item-title>Engagement Politique RSE/DD</v-list-item-title>
+            <v-list-item-title>Engagements et durabilité</v-list-item-title>
           </v-list-item>
         </v-list-group>
 
@@ -424,26 +434,29 @@
           <template v-slot:activator="{ props }">
             <v-list-item v-bind="props" title="Services"></v-list-item>
           </template>
-          <v-list-item to="/nos-services" @click="drawer = false">
-            <v-list-item-title>Stratégies Intégrées RSE/ESG</v-list-item-title>
+          <v-list-item to="/strategie-esg-rse" @click="drawer = false">
+            <v-list-item-title>Stratégies ESG/RSE</v-list-item-title>
           </v-list-item>
-          <v-list-item to="/nos-services" @click="drawer = false">
-            <v-list-item-title>Mesure et valorisation performances ESG</v-list-item-title>
-          </v-list-item>
-          <v-list-item to="/nos-services" @click="drawer = false">
+          <v-list-item to="/evaluation-environnementale" @click="drawer = false">
             <v-list-item-title>Évaluations Environnementales</v-list-item-title>
           </v-list-item>
-          <v-list-item to="/nos-services" @click="drawer = false">
+          <v-list-item to="/economie-circulaire" @click="drawer = false">
             <v-list-item-title>Économie circulaire</v-list-item-title>
           </v-list-item>
-          <v-list-item to="/nos-services" @click="drawer = false">
-            <v-list-item-title>Efficacité et transition énergétiques</v-list-item-title>
+          <v-list-item to="/neutralite-carbone" @click="drawer = false">
+            <v-list-item-title>Neutralité carbone</v-list-item-title>
           </v-list-item>
-          <v-list-item to="/nos-services" @click="drawer = false">
-            <v-list-item-title>Écosystèmes et ressources naturelles</v-list-item-title>
+          <v-list-item to="/biodiversite-ecosystemes" @click="drawer = false">
+            <v-list-item-title>Biodiversité et écosystèmes</v-list-item-title>
           </v-list-item>
-          <v-list-item to="/nos-services" @click="drawer = false">
-            <v-list-item-title>Événements sur la durabilité</v-list-item-title>
+          <v-list-item to="/qualite-vie-conditions-travail" @click="drawer = false">
+            <v-list-item-title>Qualité de vie et conditions de travail (QVCT)</v-list-item-title>
+          </v-list-item>
+          <v-list-item to="/notation-labellisation-esg" @click="drawer = false">
+            <v-list-item-title>Notation et labellisation ESG</v-list-item-title>
+          </v-list-item>
+          <v-list-item to="/reporting-durabilite-esg" @click="drawer = false">
+            <v-list-item-title>Reporting durabilité ESG</v-list-item-title>
           </v-list-item>
         </v-list-group>
 
@@ -471,13 +484,13 @@
             <v-list-item v-bind="props" title="Événements"></v-list-item>
           </template>
           <v-list-item to="/africa-corporate-sustainability-conference" @click="drawer = false">
-            <v-list-item-title>ASBIC - Conférence Panafricaine</v-list-item-title>
+            <v-list-item-title>Conférences</v-list-item-title>
           </v-list-item>
           <v-list-item to="/les-after-work-rse" @click="drawer = false">
-            <v-list-item-title>AfterWork ESG</v-list-item-title>
+            <v-list-item-title>Afterwork RSE</v-list-item-title>
           </v-list-item>
-          <v-list-item to="/boot-camp-ecologie" @click="drawer = false">
-            <v-list-item-title>Boot Camp Écologie</v-list-item-title>
+          <v-list-item to="/recompenses" @click="drawer = false">
+            <v-list-item-title>Récompenses</v-list-item-title>
           </v-list-item>
         </v-list-group>
 
