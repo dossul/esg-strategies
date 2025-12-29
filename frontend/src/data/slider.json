@@ -756,7 +756,7 @@
         }
       },
       "image": {
-        "src": "/assets/formations_slide.jpg",
+        "src": "/assets/formations_slide.jpeg",
         "alt": "Formations et montée en compétences",
         "animation": "slideInLeft",
         "delay": 400,
@@ -773,7 +773,7 @@
       },
       "background": {
         "type": "image",
-        "value": "/assets/formations_slide.jpg",
+        "value": "/assets/formations_slide.jpeg",
         "overlay": "rgba(0,0,0,0.3)"
       },
       "layout": {
