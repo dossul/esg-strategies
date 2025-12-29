@@ -195,7 +195,7 @@
                   <v-col cols="4" class="text-center">
                       <div class="mega-menu-item">
                         <v-icon size="48" color="blue" class="mb-3">mdi-certificate</v-icon>
-                        <h3 class="text-h6 mb-2">Labellisation</h3>
+                        <h3 class="text-h6 mb-2">Classement et labellisation</h3>
                         <p class="text-body-2 mb-3">Certification et labellisation ESG</p>
                         <v-btn to="/labelisation" variant="outlined" size="small">
                           En savoir plus
@@ -429,7 +429,7 @@
             <v-list-item-title>Notation</v-list-item-title>
           </v-list-item>
           <v-list-item to="/labelisation" @click="drawer = false">
-            <v-list-item-title>Labellisation</v-list-item-title>
+            <v-list-item-title>Classement et labellisation</v-list-item-title>
           </v-list-item>
           <v-list-item to="/classement" @click="drawer = false">
             <v-list-item-title>Classement</v-list-item-title>
