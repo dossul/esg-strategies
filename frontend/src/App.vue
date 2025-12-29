@@ -205,7 +205,7 @@
                   <v-col cols="4" class="text-center">
                     <div class="mega-menu-item">
                       <v-icon size="48" color="purple" class="mb-3">mdi-trophy</v-icon>
-                      <h3 class="text-h6 mb-2">Classement</h3>
+                      <h3 class="text-h6 mb-2">Classements</h3>
                       <p class="text-body-2 mb-3">Classement et benchmarking ESG</p>
                       <v-btn to="/classement" variant="outlined" size="small">
                         En savoir plus
@@ -217,15 +217,66 @@
             </v-card>
           </v-menu>
 
-          <!-- Formations -->
-          <v-btn
-            to="/formations"
-            variant="text"
-            class="mx-1 nav-item"
-            :color="$route.path === '/formations' ? 'primary' : 'grey-darken-1'"
-          >
-            Formations
-          </v-btn>
+          <!-- Formations (Mega Menu) -->
+          <v-menu offset-y content-class="mega-menu-content">
+            <template v-slot:activator="{ props }">
+              <v-btn
+                v-bind="props"
+                variant="text"
+                class="mx-1 nav-item"
+                color="grey-darken-1"
+              >
+                Formations
+                <v-icon size="small" class="ml-1">mdi-chevron-down</v-icon>
+              </v-btn>
+            </template>
+            <v-card class="mega-menu-card" min-width="1000">
+              <v-card-text class="pa-6">
+                <v-row>
+                  <v-col cols="3" class="text-center">
+                    <div class="mega-menu-item">
+                      <v-icon size="48" color="green" class="mb-3">mdi-certificate</v-icon>
+                      <h3 class="text-h6 mb-2">Certifications Internationales</h3>
+                      <p class="text-body-2 mb-3">Formations certifiantes conformes aux normes ISO et standards internationaux reconnus</p>
+                      <v-btn to="/formations#certifications-internationales" variant="outlined" size="small">
+                        Découvrir
+                      </v-btn>
+                    </div>
+                  </v-col>
+                  <v-col cols="3" class="text-center">
+                    <div class="mega-menu-item">
+                      <v-icon size="48" color="orange" class="mb-3">mdi-medal</v-icon>
+                      <h3 class="text-h6 mb-2">Certifications ESG-Stratégies</h3>
+                      <p class="text-body-2 mb-3">Certifications propriétaires développées par nos experts pour le contexte africain</p>
+                      <v-btn to="/formations#certifications-esg" variant="outlined" size="small">
+                        Découvrir
+                      </v-btn>
+                    </div>
+                  </v-col>
+                  <v-col cols="3" class="text-center">
+                    <div class="mega-menu-item">
+                      <v-icon size="48" color="red" class="mb-3">mdi-school</v-icon>
+                      <h3 class="text-h6 mb-2">Master Class</h3>
+                      <p class="text-body-2 mb-3">Sessions exclusives animées par des experts internationaux de haut niveau</p>
+                      <v-btn to="/formations#master-class" variant="outlined" size="small">
+                        Découvrir
+                      </v-btn>
+                    </div>
+                  </v-col>
+                  <v-col cols="3" class="text-center">
+                    <div class="mega-menu-item">
+                      <v-icon size="48" color="blue" class="mb-3">mdi-book-open-page-variant</v-icon>
+                      <h3 class="text-h6 mb-2">Catalogue</h3>
+                      <p class="text-body-2 mb-3">Téléchargez notre catalogue complet de formations 2024</p>
+                      <v-btn to="/formations#catalogue" variant="outlined" size="small">
+                        Télécharger
+                      </v-btn>
+                    </div>
+                  </v-col>
+                </v-row>
+              </v-card-text>
+            </v-card>
+          </v-menu>
 
           <!-- Événements (Mega Menu) -->
           <v-menu offset-y content-class="mega-menu-content">
@@ -436,9 +487,23 @@
           </v-list-item>
         </v-list-group>
 
-        <v-list-item to="/formations" @click="drawer = false">
-          <v-list-item-title>Formations</v-list-item-title>
-        </v-list-item>
+        <v-list-group>
+          <template v-slot:activator="{ props }">
+            <v-list-item v-bind="props" title="Formations"></v-list-item>
+          </template>
+          <v-list-item to="/formations#certifications-internationales" @click="drawer = false">
+            <v-list-item-title>Certifications Internationales</v-list-item-title>
+          </v-list-item>
+          <v-list-item to="/formations#certifications-esg" @click="drawer = false">
+            <v-list-item-title>Certifications ESG-Stratégies</v-list-item-title>
+          </v-list-item>
+          <v-list-item to="/formations#master-class" @click="drawer = false">
+            <v-list-item-title>Master Class</v-list-item-title>
+          </v-list-item>
+          <v-list-item to="/formations#catalogue" @click="drawer = false">
+            <v-list-item-title>Catalogue</v-list-item-title>
+          </v-list-item>
+        </v-list-group>
 
         <v-list-group>
           <template v-slot:activator="{ props }">
