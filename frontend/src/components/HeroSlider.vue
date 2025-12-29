@@ -255,7 +255,7 @@ export default {
 .slide-buttons {
   display: flex;
   gap: 1rem;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
