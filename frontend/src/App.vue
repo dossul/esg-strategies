@@ -139,9 +139,9 @@
                     </div>
                   </v-col>
                 </v-row>
-                <!-- Deuxième ligne - 4 services -->
+                <!-- Deuxième ligne - 2 services -->
                 <v-row>
-                  <v-col cols="3" class="text-center">
+                  <v-col cols="6" class="text-center">
                     <div class="mega-menu-item">
                       <v-icon size="48" color="light-green" class="mb-3">mdi-leaf</v-icon>
                       <h3 class="text-h6 mb-2">Biodiversité et écosystèmes</h3>
@@ -151,27 +151,7 @@
                       </v-btn>
                     </div>
                   </v-col>
-                  <v-col cols="3" class="text-center">
-                    <div class="mega-menu-item">
-                      <v-icon size="48" color="orange" class="mb-3">mdi-account-heart</v-icon>
-                      <h3 class="text-h6 mb-2">Qualité de vie et conditions de travail (QVCT)</h3>
-                      <p class="text-body-2 mb-3">Bien-être au travail</p>
-                      <v-btn to="/qualite-vie-conditions-travail" variant="outlined" size="small">
-                        En savoir plus
-                      </v-btn>
-                    </div>
-                  </v-col>
-                  <v-col cols="3" class="text-center">
-                    <div class="mega-menu-item">
-                      <v-icon size="48" color="purple" class="mb-3">mdi-certificate</v-icon>
-                      <h3 class="text-h6 mb-2">Notation et labellisation ESG</h3>
-                      <p class="text-body-2 mb-3">Certification et évaluation</p>
-                      <v-btn to="/notation-labellisation-esg" variant="outlined" size="small">
-                        En savoir plus
-                      </v-btn>
-                    </div>
-                  </v-col>
-                  <v-col cols="3" class="text-center">
+                  <v-col cols="6" class="text-center">
                     <div class="mega-menu-item">
                       <v-icon size="48" color="indigo" class="mb-3">mdi-file-document-outline</v-icon>
                       <h3 class="text-h6 mb-2">Reporting durabilité ESG</h3>
@@ -435,12 +415,6 @@
           </v-list-item>
           <v-list-item to="/biodiversite-ecosystemes" @click="drawer = false">
             <v-list-item-title>Biodiversité et écosystèmes</v-list-item-title>
-          </v-list-item>
-          <v-list-item to="/qualite-vie-conditions-travail" @click="drawer = false">
-            <v-list-item-title>Qualité de vie et conditions de travail (QVCT)</v-list-item-title>
-          </v-list-item>
-          <v-list-item to="/notation-labellisation-esg" @click="drawer = false">
-            <v-list-item-title>Notation et labellisation ESG</v-list-item-title>
           </v-list-item>
           <v-list-item to="/reporting-durabilite-esg" @click="drawer = false">
             <v-list-item-title>Reporting durabilité ESG</v-list-item-title>
