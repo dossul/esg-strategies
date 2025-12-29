@@ -1,7 +1,7 @@
 {
   "settings": {
     "autoplay": true,
-    "autoplayDelay": 8000,
+    "autoplayDelay": 5000,
     "pauseOnHover": true,
     "navigation": true,
     "pagination": true,

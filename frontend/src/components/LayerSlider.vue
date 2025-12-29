@@ -1,5 +1,5 @@
 <template>
-  <div class="layer-slider-container">
+  <div class="layer-slider-container" @mouseenter="pauseAutoplay" @mouseleave="resumeAutoplay">
     <div class="layer-slider" ref="sliderContainer">
       <!-- Slides -->
       <div 

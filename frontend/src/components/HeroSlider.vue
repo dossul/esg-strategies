@@ -1,5 +1,5 @@
 <template>
-  <div class="hero-slider">
+  <div class="hero-slider" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
     <div class="slider-container">
       <!-- Slides -->
       <div 
@@ -159,6 +159,16 @@ export default {
     stopAutoplay() {
       if (this.autoplayInterval) {
         clearInterval(this.autoplayInterval)
+      }
+    },
+    handleMouseEnter() {
+      if (this.sliderData.settings.pauseOnHover) {
+        this.stopAutoplay()
+      }
+    },
+    handleMouseLeave() {
+      if (this.sliderData.settings.pauseOnHover && this.sliderData.settings.autoplay) {
+        this.startAutoplay()
       }
     }
   }
